@@ -60,32 +60,5 @@ The application consists of 5 highly cohesive, fully functional user journeys:
 
 ---
 
-## 📸 Automated Screen Capture & Verification
-
-Cute Bakery includes fully automated visual screenshot verification tests. You can generate or verify pixel-perfect design files directly from the terminal without requiring a physical emulator or device.
-
-To trigger the automated screenshot generation:
-```bash
-gradle :app:recordRoborazziDebug
-```
-
-Screenshots are recorded and structured in `/app/src/test/screenshots/` as:
-1.  `1_home_screen.png` - Home catalog with hero banner and cake grid.
-2.  `2_detail_screen.png` - Pandan Swiss Roll product details with quantity controls.
-3.  `3_cart_screen.png` - Populated shopping bag, shipping form, and payment methods.
-4.  `4_order_status_screen.png` - Checkmark payment banner, timeline status progression, and map.
-5.  `5_profile_screen.png` - Personalized profile and administrative sections.
-
-To verify existing UI consistency:
-```bash
-gradle :app:verifyRoborazziDebug
-```
-
----
-
-## 🚀 How to Run locally
-
-1.  Clone this repository or download the source code.
-2.  Open the project directory inside **Android Studio** (Koala or newer recommended).
-3.  Sync Gradle dependencies.
-4.  Run on any compatible physical device or Virtual Emulator running **Android API 24+** (SDK 34-36 fully supported).
+<img src="./app/src/test/screenshots/1_home_screen.png">
+<img src="./app/src/test/screenshots/Screenshot 2026-06-27 111151.png">
