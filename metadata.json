@@ -1,0 +1,6 @@
+{
+  "name": "Cute Bakery",
+  "description": "A premium bakery application featuring Bolu Gulung Pandan, Brownies Coklat Premium, and other delicious cakes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
